@@ -1,3 +1,4 @@
+
 //변수 선언
 
 var name33 = "test2"; // 기본적으로 var로 선언
@@ -78,7 +79,24 @@ console.log(typeof undefined); */
 
 
 //형변환
-console.log(String(3),String(true)); // 문자형 형변환
-console.log(Number("2"),Number("5")); // 숫자형 형변환
+//console.log(String(3),String(true)); // 문자형 형변환
+//console.log(Number("2"),Number("5")); // 숫자형 형변환
 
+
+//조건문
+
+/*const age = 1;
+
+if(age > 19){
+    console.log("환영합니다.");
+}else{
+    console.log("안녕히가세요");
+}
+
+console.log("-------------");*/
+
+//논리 연산자
+
+// &&(and) , ||(or) , !(not)
+// && > or (우선순위)
 
