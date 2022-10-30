@@ -138,6 +138,8 @@ console.log(result);
 
 <br>
 
+## 객체
+
 *객체(object)*
 
 ```javascript
