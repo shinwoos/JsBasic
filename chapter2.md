@@ -125,4 +125,53 @@ function shwoError(){
 var result = showError();
 console.log(result);
 ```
+<br>
+
+*hoistiing*
+
+```javascript 
+    hello(); //  함수를 사용할 수 있는 범위는 코드 위치보다 위로 올라감.
+    fuction hello(){  // 이를 호이스팅이라고 할 수 있음.
+        console.log("hello"); // 코드위치가 실제로 위로 올라가는 것이 아님.
+    }
+```
+
+<br>
+
+*객체(object)*
+
+```javascript
+    const man = {
+        name:'shin', // name은 key shin은 value임.
+        age:28,   // 각 프로퍼티는 , 로 구분함.
+    }
+
+    // 접근
+    man.name // shin 닷이나 대괄호로 사용 가능.
+    man['age'] // 28
+
+    //추가
+    man.gender = 'male';
+    man['haircolor'] = 'black';
+
+    //삭제
+    delete man.haircolor; //삭제 하고싶은 프로퍼티 앞에 delete 선언
+
+    //존재하지 않는 프로퍼티에 접근하면 undefined
+    
+    'birthday' in man; // in을 사용해 프로퍼티 존재여부 확인
+```
+*for in 반복문*
+
+```javascript
+    for(let key in man){
+        console.log(key)
+        console.log(man[key])
+    }
+```
+
+
+
+
 </body2>
+
