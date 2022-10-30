@@ -172,6 +172,29 @@ console.log(result);
     }
 ```
 
+*method (객체 프로퍼티로 할당 된 함수)*
+
+```javascript
+    const man = {
+        name : 'shin',
+        age : 28,
+        fly : function(){ //method  function 생략 가능
+            console.log('hi') 
+        }
+    }
+```
+<br>
+
+*배열(array)*
+
+
+```javascript
+let student = ['s','h','i','n'] // 배열 선언 인덱스는 숫자 0부터 시작
+student.push('z'); // 배열 맨 끝에  인덱스 추가
+student.pop(); // 배열 맨 끝 인덱스 삭제
+student.unshift('s');//배열 맨 앞 인덱스 추가
+studuent.shift(); // 배열 맨 앞 인덱스 삭제
+```
 
 
 
