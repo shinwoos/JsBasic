@@ -196,7 +196,7 @@ student.unshift('s');//배열 맨 앞 인덱스 추가
 studuent.shift(); // 배열 맨 앞 인덱스 삭제
 ```
 
-
+end
 
 </body2>
 
