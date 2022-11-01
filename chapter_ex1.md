@@ -21,6 +21,14 @@
 
 <br>
 
+```javascript
+    let name;
+    name = 'shin';
+    var age;
+    age = 20;
+    const gender;
+    gender = 'male'; //여기서 gender는 선언과 동시에 할당을 하지 않아서 에러.
+```
 
 
 
